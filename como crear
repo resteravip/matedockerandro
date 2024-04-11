@@ -10,6 +10,7 @@ docker run -d -p 6080:6080 -e EMULATOR_DEVICE="Samsung Galaxy S10" -e WEB_VNC=tr
 
 docker push obryanvip/androidstudio:1.5 
 
+ docker build -t obryanvip/mateandro:2024 /workspaces/matedockerandro/
 
 
 #con clave docker run -d --name YourName --shm-size 2G -P -p 8888:5901 -p 8899:6901 -e VNC_RESOLUTION=1440x900 -e VNC_PW=ppllmmoo --device /dev/kvm --user $(id -u):$(id -g) obryanvip/androidstudio:2023
