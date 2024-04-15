@@ -12,3 +12,6 @@ mozillacache.zip   .mozilla
 /.cache$ zip -r mozilla.zip mozilla
 
 mozillacache.zip   cache
+
+
+zip -r -s 20m mozilla_parte mozilla/
