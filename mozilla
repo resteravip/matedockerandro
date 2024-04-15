@@ -1,1 +1,14 @@
-m
+/config/.mozilla/firefox/
+/config/
+
+/.cache$ zip -r .mozilla.zip .mozilla
+
+mozillacache.zip   .mozilla
+
+
+/config/.cache/
+
+
+/.cache$ zip -r mozilla.zip mozilla
+
+mozillacache.zip   cache
