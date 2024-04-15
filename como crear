@@ -9,6 +9,9 @@ docker logout
 docker run -d -p 6080:6080 -e EMULATOR_DEVICE="Samsung Galaxy S10" -e WEB_VNC=true --device /dev/kvm obryanvip/emu2024
 
 docker push obryanvip/androidstudio:1.5 
+docker push obryanvip/ubuntu:2023
+
+
 
  docker build -t obryanvip/mateandro:2024 /workspaces/matedockerandro/
  docker build -t obryanvip/ubuntu:2023 /workspaces/matedockerandro/
@@ -23,4 +26,4 @@ linuxserver/webtop:ubuntu-xfce
  docker ps -a  # ver contenedores activos
 # Contenedores en ejecución
 docker ps
-docker run -d -p 6080:6080  -e WEB_VNC=true obryanvip/ubuntu:2023
+docker run -d -p 3000:3000  -e WEB_VNC=true obryanvip/ubuntu:2023
