@@ -27,3 +27,5 @@ linuxserver/webtop:ubuntu-xfce
 # Contenedores en ejecución
 docker ps
 docker run -d -p 3000:3000  -e WEB_VNC=true obryanvip/ubuntu:2023
+
+docker run -d -p 6080:3000 -e WEB_VNC=true  --name obry obryanvip/ubuntu2:2023
