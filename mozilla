@@ -15,3 +15,6 @@ mozillacache.zip   cache
 
 
 zip -r -s 20m mozilla_parte mozilla/
+
+abc@53080a7bfe15:~$ zip -r -s 20m mozilla_pro .mozilla/
+
