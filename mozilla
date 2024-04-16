@@ -23,3 +23,5 @@ sudo apt-get install p7zip-full
 zip -r mozilla75mb.zip .mozilla
 zip -r mozilla75mb.zip .mozilla
 
+tar -czf mozilla75.tar.gz .mozilla
+
